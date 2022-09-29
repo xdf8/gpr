@@ -1,6 +1,6 @@
-def rotate_string(string, n):
-    return string[n:] + string[:n]
+def rotate_left_str(s: str, n: int) -> str:
+    return s[n:] + s[:n]
 
 
 for i in range(10):
-    print(rotate_string("Hello World", i))
+    print(rotate_left_str("Hello World", i))
