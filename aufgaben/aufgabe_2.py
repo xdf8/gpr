@@ -1,5 +1,4 @@
-from turtle import forward, right, left, done, penup, pendown
-from time import sleep
+from turtle import forward, left, done, penup, pendown
 
 # 2a)
 def draw_equilateral_triangle(side_length):
