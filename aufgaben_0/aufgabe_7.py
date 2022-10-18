@@ -21,11 +21,11 @@ def decompose_string(string):
         result.append(i)
     return result
 
+# besser!
 def decompose(s):
     ma = s.split(' ')
     fi = ma[0].split('-')
     return int(fi[0]), int(fi[1]), ma[1][0], ma[2]
-
 
 print(decompose_string(string = '32-165 k: sdklffs'))
 print(decompose(s = '32-165 k: sdklffs'))
